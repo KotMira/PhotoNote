@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E8FA2151D4A26325A07EB2 /* SavedListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42851B60CADA7AF630F3A70 /* SavedListConfigurator.swift */; };
+		0AC1A771376A1481C0BD9C16 /* ImageActionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC129DE9342DB6D76CE2D16 /* ImageActionsPresenter.swift */; };
+		0CB58D0BEE73296AC674FBA8 /* PhotoMakerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B483ABA34ADE8B9DDDED /* PhotoMakerInteractor.swift */; };
+		0D96AB3E5F447F06FFFE515B /* PhotoMakerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F8968B5A31CA03E8EB2D9E /* PhotoMakerConfigurator.swift */; };
+		27A45DF8C18E14F88AF86244 /* ImageActionsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AEF885C1D7044B86B2F746 /* ImageActionsRouter.swift */; };
+		3BB33EF3E6A0F3CEB9024DDE /* AuthConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F261E1454D77AD2B9A2FC /* AuthConfigurator.swift */; };
+		3BBBC6449A4BA0B7F4121199 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8659D5A5B582308214672986 /* AuthViewController.swift */; };
+		451A9BAE07FE56B14A53D24B /* AuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55EBFA2453E761381A0FB6 /* AuthInteractor.swift */; };
+		4EA12E18A0BCA812AAB0522D /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF9A352153AA882010F1A8 /* TabBarRouter.swift */; };
+		51326CFFB0E43DF1BB32E2A6 /* PhotoMakerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A14E1129569ED151713284 /* PhotoMakerPresenter.swift */; };
+		561E4BEF43CF9BE74AFA5295 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F53DEB5A7F5957D2FC2C97B /* TabBarPresenter.swift */; };
+		5A676767BE704FCC102AA987 /* PhotoMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549E9628C3A89246FDC911AF /* PhotoMakerViewController.swift */; };
+		62EE91A07A8BBDB022C50AAB /* ImageActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F3A33FD5FC962ECF73CB0D /* ImageActionsViewController.swift */; };
+		66A5D8314C6EA382B8A6E328 /* SavedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62506EBF748D6A51C02CF66E /* SavedListViewController.swift */; };
+		768BD8B83AB816A912B01819 /* SavedListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6751B9DCE09C72A85785C6 /* SavedListPresenter.swift */; };
+		78B830BE4E1399BEA38257BA /* SavedListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BEC74AFDC303B2EEB70131 /* SavedListRouter.swift */; };
+		7ADCF9C129E16B6436A93D20 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA847B76466C0631D2B60606 /* TabBarConfigurator.swift */; };
+		8D2AEA7A23FB4DE27D6551D8 /* AuthPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A132290B7AEDF6F382723AA /* AuthPresenter.swift */; };
+		9874E27ABA9EE7002AD3F7D9 /* Pods_PhotoNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44977F2B941CEDFE8C9F7029 /* Pods_PhotoNote.framework */; };
+		9F6B7E01CB2DE2108C2A25D8 /* AuthRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974558257CC31A539C63B6F /* AuthRouter.swift */; };
+		BD3B4819C8B44F63A1573D2B /* TabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31BCA77970142C5AC590018 /* TabBarInteractor.swift */; };
+		CCDD410F72D13113CF0F952A /* ImageActionsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DD161E5A6F2CAD4155DF0 /* ImageActionsInteractor.swift */; };
+		CECBEDA4274BB7F500ABF3D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEDA3274BB7F500ABF3D7 /* AppDelegate.swift */; };
+		CECBEDA6274BB7F500ABF3D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEDA5274BB7F500ABF3D7 /* SceneDelegate.swift */; };
+		CECBEDAD274BB7FE00ABF3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBEDAC274BB7FE00ABF3D7 /* Assets.xcassets */; };
+		CECBEDB0274BB7FE00ABF3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBEDAE274BB7FE00ABF3D7 /* LaunchScreen.storyboard */; };
+		CECBEDBB274BCEA000ABF3D7 /* TabBarViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBEDBA274BCEA000ABF3D7 /* TabBarViewController.storyboard */; };
+		CECBEDBD274BCF8500ABF3D7 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECBEDBC274BCF8500ABF3D7 /* AuthViewController.storyboard */; };
+		CECBEDC0274BD23300ABF3D7 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEDBF274BD23200ABF3D7 /* UIView.swift */; };
+		CECBEDC2274BDE4A00ABF3D7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBEDC1274BDE4900ABF3D7 /* UIViewController.swift */; };
+		CECBEDC4274BE9B100ABF3D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CECBEDC3274BE9B000ABF3D7 /* GoogleService-Info.plist */; };
+		CEE57C0C274CAFEA00A7333E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE57C0B274CAFEA00A7333E /* String.swift */; };
+		CEE57C0E274CB6CE00A7333E /* PhotoMakerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE57C0D274CB6CD00A7333E /* PhotoMakerViewController.storyboard */; };
+		CEE57C10274CE90900A7333E /* SavedListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE57C0F274CE90900A7333E /* SavedListViewController.storyboard */; };
+		CEE57C13274CE96A00A7333E /* SavedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE57C12274CE96A00A7333E /* SavedListCell.swift */; };
+		CEE57C15274CE97B00A7333E /* SavedListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE57C14274CE97B00A7333E /* SavedListCell.xib */; };
+		CEE57C19274CEE0800A7333E /* ImageActionsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE57C18274CEE0800A7333E /* ImageActionsViewController.storyboard */; };
+		CEE57C1B274CEFDC00A7333E /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE57C1A274CEFDC00A7333E /* Date.swift */; };
+		D73AA3B53B7D8291CB5DBDF1 /* PhotoMakerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE32C66AA14C86C927D3E3D /* PhotoMakerRouter.swift */; };
+		DC154BE25216C3BF6E6F115B /* SavedListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D996BDA3A658594788CE4305 /* SavedListInteractor.swift */; };
+		E8398244AE2012D3929BD0F8 /* ImageActionsInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512C6304E6F934BF3B59C722 /* ImageActionsInitializer.swift */; };
+		F945EC3194381AA96501E54D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A7FB792F5E0CFA9F9A157F /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12F8968B5A31CA03E8EB2D9E /* PhotoMakerConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoMakerConfigurator.swift; sourceTree = "<group>"; };
+		22F3A33FD5FC962ECF73CB0D /* ImageActionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageActionsViewController.swift; sourceTree = "<group>"; };
+		2C55EBFA2453E761381A0FB6 /* AuthInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
+		2F09CE806B25E8FFF849443F /* Pods-PhotoNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoNote.release.xcconfig"; path = "Target Support Files/Pods-PhotoNote/Pods-PhotoNote.release.xcconfig"; sourceTree = "<group>"; };
+		2FC129DE9342DB6D76CE2D16 /* ImageActionsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageActionsPresenter.swift; sourceTree = "<group>"; };
+		34C7B483ABA34ADE8B9DDDED /* PhotoMakerInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoMakerInteractor.swift; sourceTree = "<group>"; };
+		35AEF885C1D7044B86B2F746 /* ImageActionsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageActionsRouter.swift; sourceTree = "<group>"; };
+		44977F2B941CEDFE8C9F7029 /* Pods_PhotoNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512C6304E6F934BF3B59C722 /* ImageActionsInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageActionsInitializer.swift; sourceTree = "<group>"; };
+		549E9628C3A89246FDC911AF /* PhotoMakerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoMakerViewController.swift; sourceTree = "<group>"; };
+		5A132290B7AEDF6F382723AA /* AuthPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthPresenter.swift; sourceTree = "<group>"; };
+		62506EBF748D6A51C02CF66E /* SavedListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SavedListViewController.swift; sourceTree = "<group>"; };
+		68BEC74AFDC303B2EEB70131 /* SavedListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SavedListRouter.swift; sourceTree = "<group>"; };
+		77A14E1129569ED151713284 /* PhotoMakerPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoMakerPresenter.swift; sourceTree = "<group>"; };
+		7CEF9A352153AA882010F1A8 /* TabBarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		7E350A6863444C840523E9C2 /* Pods-PhotoNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoNote.debug.xcconfig"; path = "Target Support Files/Pods-PhotoNote/Pods-PhotoNote.debug.xcconfig"; sourceTree = "<group>"; };
+		8659D5A5B582308214672986 /* AuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8F53DEB5A7F5957D2FC2C97B /* TabBarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		9A6751B9DCE09C72A85785C6 /* SavedListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SavedListPresenter.swift; sourceTree = "<group>"; };
+		A31BCA77970142C5AC590018 /* TabBarInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractor.swift; sourceTree = "<group>"; };
+		A42851B60CADA7AF630F3A70 /* SavedListConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SavedListConfigurator.swift; sourceTree = "<group>"; };
+		AA6F261E1454D77AD2B9A2FC /* AuthConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthConfigurator.swift; sourceTree = "<group>"; };
+		B974558257CC31A539C63B6F /* AuthRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRouter.swift; sourceTree = "<group>"; };
+		B9A7FB792F5E0CFA9F9A157F /* TabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CECBEDA0274BB7F500ABF3D7 /* PhotoNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECBEDA3274BB7F500ABF3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECBEDA5274BB7F500ABF3D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CECBEDAC274BB7FE00ABF3D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECBEDAF274BB7FE00ABF3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECBEDB1274BB7FE00ABF3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECBEDBA274BCEA000ABF3D7 /* TabBarViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarViewController.storyboard; sourceTree = "<group>"; };
+		CECBEDBC274BCF8500ABF3D7 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		CECBEDBF274BD23200ABF3D7 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CECBEDC1274BDE4900ABF3D7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CECBEDC3274BE9B000ABF3D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE57C0B274CAFEA00A7333E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CEE57C0D274CB6CD00A7333E /* PhotoMakerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoMakerViewController.storyboard; sourceTree = "<group>"; };
+		CEE57C0F274CE90900A7333E /* SavedListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SavedListViewController.storyboard; sourceTree = "<group>"; };
+		CEE57C12274CE96A00A7333E /* SavedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedListCell.swift; sourceTree = "<group>"; };
+		CEE57C14274CE97B00A7333E /* SavedListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedListCell.xib; sourceTree = "<group>"; };
+		CEE57C18274CEE0800A7333E /* ImageActionsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageActionsViewController.storyboard; sourceTree = "<group>"; };
+		CEE57C1A274CEFDC00A7333E /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D996BDA3A658594788CE4305 /* SavedListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SavedListInteractor.swift; sourceTree = "<group>"; };
+		E42DD161E5A6F2CAD4155DF0 /* ImageActionsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageActionsInteractor.swift; sourceTree = "<group>"; };
+		EA847B76466C0631D2B60606 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
+		FFE32C66AA14C86C927D3E3D /* PhotoMakerRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoMakerRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECBED9D274BB7F500ABF3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9874E27ABA9EE7002AD3F7D9 /* Pods_PhotoNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1809499DE7446DD61E2A550D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E350A6863444C840523E9C2 /* Pods-PhotoNote.debug.xcconfig */,
+				2F09CE806B25E8FFF849443F /* Pods-PhotoNote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		192EF8C640A990A0DA18437D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2C55EBFA2453E761381A0FB6 /* AuthInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1A7A07AB606FA908A57DE7C6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C13A99CCA708BB46BE4B9690 /* Auth */,
+				2E551DA98CDB65CF2D5D0AB0 /* TabBar */,
+				37AF6B06B431DABF8CC8FB68 /* PhotoMaker */,
+				A3C8B92592416EAB6F3AFCC0 /* SavedList */,
+				3A2F306F23843A81F3ADA131 /* ImageActions */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1BB3492044309F45D418A643 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				35AEF885C1D7044B86B2F746 /* ImageActionsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		24395956DC7BAACEE267EFE6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7CEF9A352153AA882010F1A8 /* TabBarRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2444BB5B947654CAE0DF6330 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22F3A33FD5FC962ECF73CB0D /* ImageActionsViewController.swift */,
+				CEE57C18274CEE0800A7333E /* ImageActionsViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		280DFF74F375D65598129A2B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9A6751B9DCE09C72A85785C6 /* SavedListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2D494AE5A365F0712D359AAC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2FC129DE9342DB6D76CE2D16 /* ImageActionsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2DFD69C352368F509DD43F74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEE57C11274CE95000A7333E /* CustomView */,
+				62506EBF748D6A51C02CF66E /* SavedListViewController.swift */,
+				CEE57C0F274CE90900A7333E /* SavedListViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E551DA98CDB65CF2D5D0AB0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				32D4ADFCBF76C134E4388D23 /* View */,
+				F4C342DA50B93E509D5FFC73 /* Presenter */,
+				9918F6280CFC9F68743363F6 /* Interactor */,
+				24395956DC7BAACEE267EFE6 /* Router */,
+				E0F5705AAF053257B2A10C83 /* Configurator */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		32D4ADFCBF76C134E4388D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9A7FB792F5E0CFA9F9A157F /* TabBarViewController.swift */,
+				CECBEDBA274BCEA000ABF3D7 /* TabBarViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37AF6B06B431DABF8CC8FB68 /* PhotoMaker */ = {
+			isa = PBXGroup;
+			children = (
+				5D329AA5F10C21764AC1024D /* View */,
+				F2C9B78DBC05EF159F342443 /* Presenter */,
+				A6AC40687F73DD86C1919CD1 /* Interactor */,
+				F0930D3270809166B85971C4 /* Router */,
+				B27FAB7CDE793442B35CC906 /* Configurator */,
+			);
+			path = PhotoMaker;
+			sourceTree = "<group>";
+		};
+		3A2F306F23843A81F3ADA131 /* ImageActions */ = {
+			isa = PBXGroup;
+			children = (
+				2444BB5B947654CAE0DF6330 /* View */,
+				2D494AE5A365F0712D359AAC /* Presenter */,
+				AD1172CC98DB3BB90664E8A7 /* Interactor */,
+				1BB3492044309F45D418A643 /* Router */,
+				A49CA122622EE0497BE783BC /* Configurator */,
+			);
+			path = ImageActions;
+			sourceTree = "<group>";
+		};
+		42926E7D55FBDA1B85D862F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8659D5A5B582308214672986 /* AuthViewController.swift */,
+				CECBEDBC274BCF8500ABF3D7 /* AuthViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53A84AB6394EFAD811FFAD81 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				A42851B60CADA7AF630F3A70 /* SavedListConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		5D329AA5F10C21764AC1024D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				549E9628C3A89246FDC911AF /* PhotoMakerViewController.swift */,
+				CEE57C0D274CB6CD00A7333E /* PhotoMakerViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68A3638774AC445A160C8015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44977F2B941CEDFE8C9F7029 /* Pods_PhotoNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7123A2B133EACF248E79445B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5A132290B7AEDF6F382723AA /* AuthPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		823CCA5013DE181F66988198 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				68BEC74AFDC303B2EEB70131 /* SavedListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		913552847F1AD92BE702AEDF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B974558257CC31A539C63B6F /* AuthRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9918F6280CFC9F68743363F6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A31BCA77970142C5AC590018 /* TabBarInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A3C8B92592416EAB6F3AFCC0 /* SavedList */ = {
+			isa = PBXGroup;
+			children = (
+				2DFD69C352368F509DD43F74 /* View */,
+				280DFF74F375D65598129A2B /* Presenter */,
+				C227A7A0763C0D19A74D6C1F /* Interactor */,
+				823CCA5013DE181F66988198 /* Router */,
+				53A84AB6394EFAD811FFAD81 /* Configurator */,
+			);
+			path = SavedList;
+			sourceTree = "<group>";
+		};
+		A49CA122622EE0497BE783BC /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				512C6304E6F934BF3B59C722 /* ImageActionsInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A6AC40687F73DD86C1919CD1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B483ABA34ADE8B9DDDED /* PhotoMakerInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AD1172CC98DB3BB90664E8A7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E42DD161E5A6F2CAD4155DF0 /* ImageActionsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B27FAB7CDE793442B35CC906 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				12F8968B5A31CA03E8EB2D9E /* PhotoMakerConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		B7262A65B1DEFBC9AFAF9F7D /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F261E1454D77AD2B9A2FC /* AuthConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C13A99CCA708BB46BE4B9690 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				42926E7D55FBDA1B85D862F0 /* View */,
+				7123A2B133EACF248E79445B /* Presenter */,
+				192EF8C640A990A0DA18437D /* Interactor */,
+				913552847F1AD92BE702AEDF /* Router */,
+				B7262A65B1DEFBC9AFAF9F7D /* Configurator */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C227A7A0763C0D19A74D6C1F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D996BDA3A658594788CE4305 /* SavedListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CECBED97274BB7F400ABF3D7 = {
+			isa = PBXGroup;
+			children = (
+				CECBEDA2274BB7F500ABF3D7 /* PhotoNote */,
+				CECBEDA1274BB7F500ABF3D7 /* Products */,
+				1809499DE7446DD61E2A550D /* Pods */,
+				68A3638774AC445A160C8015 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CECBEDA1274BB7F500ABF3D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECBEDA0274BB7F500ABF3D7 /* PhotoNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECBEDA2274BB7F500ABF3D7 /* PhotoNote */ = {
+			isa = PBXGroup;
+			children = (
+				1A7A07AB606FA908A57DE7C6 /* Modules */,
+				CECBEDB7274BB82900ABF3D7 /* Shared */,
+			);
+			path = PhotoNote;
+			sourceTree = "<group>";
+		};
+		CECBEDB7274BB82900ABF3D7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CEE57C17274CEB4500A7333E /* Managers */,
+				CEE57C16274CEB3A00A7333E /* Model */,
+				CECBEDBE274BD21A00ABF3D7 /* Extensions */,
+				CECBEDB9274BB84E00ABF3D7 /* Resources */,
+				CECBEDB8274BB83400ABF3D7 /* App */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CECBEDB8274BB83400ABF3D7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CECBEDA5274BB7F500ABF3D7 /* SceneDelegate.swift */,
+				CECBEDA3274BB7F500ABF3D7 /* AppDelegate.swift */,
+				CECBEDAE274BB7FE00ABF3D7 /* LaunchScreen.storyboard */,
+				CECBEDC3274BE9B000ABF3D7 /* GoogleService-Info.plist */,
+				CECBEDB1274BB7FE00ABF3D7 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CECBEDB9274BB84E00ABF3D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECBEDAC274BB7FE00ABF3D7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CECBEDBE274BD21A00ABF3D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CECBEDBF274BD23200ABF3D7 /* UIView.swift */,
+				CECBEDC1274BDE4900ABF3D7 /* UIViewController.swift */,
+				CEE57C0B274CAFEA00A7333E /* String.swift */,
+				CEE57C1A274CEFDC00A7333E /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEE57C11274CE95000A7333E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE57C12274CE96A00A7333E /* SavedListCell.swift */,
+				CEE57C14274CE97B00A7333E /* SavedListCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		CEE57C16274CEB3A00A7333E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE57C17274CEB4500A7333E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E0F5705AAF053257B2A10C83 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				EA847B76466C0631D2B60606 /* TabBarConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F0930D3270809166B85971C4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FFE32C66AA14C86C927D3E3D /* PhotoMakerRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F2C9B78DBC05EF159F342443 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				77A14E1129569ED151713284 /* PhotoMakerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F4C342DA50B93E509D5FFC73 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8F53DEB5A7F5957D2FC2C97B /* TabBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECBED9F274BB7F500ABF3D7 /* PhotoNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECBEDB4274BB7FE00ABF3D7 /* Build configuration list for PBXNativeTarget "PhotoNote" */;
+			buildPhases = (
+				BB11E4C0B886BFF2BBDEAFEF /* [CP] Check Pods Manifest.lock */,
+				CECBED9C274BB7F500ABF3D7 /* Sources */,
+				CECBED9D274BB7F500ABF3D7 /* Frameworks */,
+				CECBED9E274BB7F500ABF3D7 /* Resources */,
+				6ACB3A015F08C74C9398EC73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoNote;
+			productName = PhotoNote;
+			productReference = CECBEDA0274BB7F500ABF3D7 /* PhotoNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECBED98274BB7F400ABF3D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CECBED9F274BB7F500ABF3D7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CECBED9B274BB7F400ABF3D7 /* Build configuration list for PBXProject "PhotoNote" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECBED97274BB7F400ABF3D7;
+			productRefGroup = CECBEDA1274BB7F500ABF3D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECBED9F274BB7F500ABF3D7 /* PhotoNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECBED9E274BB7F500ABF3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE57C10274CE90900A7333E /* SavedListViewController.storyboard in Resources */,
+				CEE57C15274CE97B00A7333E /* SavedListCell.xib in Resources */,
+				CECBEDB0274BB7FE00ABF3D7 /* LaunchScreen.storyboard in Resources */,
+				CECBEDBB274BCEA000ABF3D7 /* TabBarViewController.storyboard in Resources */,
+				CEE57C19274CEE0800A7333E /* ImageActionsViewController.storyboard in Resources */,
+				CEE57C0E274CB6CE00A7333E /* PhotoMakerViewController.storyboard in Resources */,
+				CECBEDC4274BE9B100ABF3D7 /* GoogleService-Info.plist in Resources */,
+				CECBEDBD274BCF8500ABF3D7 /* AuthViewController.storyboard in Resources */,
+				CECBEDAD274BB7FE00ABF3D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ACB3A015F08C74C9398EC73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoNote/Pods-PhotoNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoNote/Pods-PhotoNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoNote/Pods-PhotoNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB11E4C0B886BFF2BBDEAFEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECBED9C274BB7F500ABF3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECBEDA4274BB7F500ABF3D7 /* AppDelegate.swift in Sources */,
+				CECBEDA6274BB7F500ABF3D7 /* SceneDelegate.swift in Sources */,
+				3BBBC6449A4BA0B7F4121199 /* AuthViewController.swift in Sources */,
+				CEE57C1B274CEFDC00A7333E /* Date.swift in Sources */,
+				8D2AEA7A23FB4DE27D6551D8 /* AuthPresenter.swift in Sources */,
+				451A9BAE07FE56B14A53D24B /* AuthInteractor.swift in Sources */,
+				9F6B7E01CB2DE2108C2A25D8 /* AuthRouter.swift in Sources */,
+				3BB33EF3E6A0F3CEB9024DDE /* AuthConfigurator.swift in Sources */,
+				F945EC3194381AA96501E54D /* TabBarViewController.swift in Sources */,
+				561E4BEF43CF9BE74AFA5295 /* TabBarPresenter.swift in Sources */,
+				CECBEDC0274BD23300ABF3D7 /* UIView.swift in Sources */,
+				BD3B4819C8B44F63A1573D2B /* TabBarInteractor.swift in Sources */,
+				4EA12E18A0BCA812AAB0522D /* TabBarRouter.swift in Sources */,
+				CEE57C0C274CAFEA00A7333E /* String.swift in Sources */,
+				7ADCF9C129E16B6436A93D20 /* TabBarConfigurator.swift in Sources */,
+				CECBEDC2274BDE4A00ABF3D7 /* UIViewController.swift in Sources */,
+				5A676767BE704FCC102AA987 /* PhotoMakerViewController.swift in Sources */,
+				51326CFFB0E43DF1BB32E2A6 /* PhotoMakerPresenter.swift in Sources */,
+				0CB58D0BEE73296AC674FBA8 /* PhotoMakerInteractor.swift in Sources */,
+				D73AA3B53B7D8291CB5DBDF1 /* PhotoMakerRouter.swift in Sources */,
+				0D96AB3E5F447F06FFFE515B /* PhotoMakerConfigurator.swift in Sources */,
+				66A5D8314C6EA382B8A6E328 /* SavedListViewController.swift in Sources */,
+				768BD8B83AB816A912B01819 /* SavedListPresenter.swift in Sources */,
+				DC154BE25216C3BF6E6F115B /* SavedListInteractor.swift in Sources */,
+				CEE57C13274CE96A00A7333E /* SavedListCell.swift in Sources */,
+				78B830BE4E1399BEA38257BA /* SavedListRouter.swift in Sources */,
+				05E8FA2151D4A26325A07EB2 /* SavedListConfigurator.swift in Sources */,
+				62EE91A07A8BBDB022C50AAB /* ImageActionsViewController.swift in Sources */,
+				0AC1A771376A1481C0BD9C16 /* ImageActionsPresenter.swift in Sources */,
+				CCDD410F72D13113CF0F952A /* ImageActionsInteractor.swift in Sources */,
+				27A45DF8C18E14F88AF86244 /* ImageActionsRouter.swift in Sources */,
+				E8398244AE2012D3929BD0F8 /* ImageActionsInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECBEDAE274BB7FE00ABF3D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECBEDAF274BB7FE00ABF3D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECBEDB2274BB7FE00ABF3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECBEDB3274BB7FE00ABF3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECBEDB5274BB7FE00ABF3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E350A6863444C840523E9C2 /* Pods-PhotoNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWN3V5W8VN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoNote/Shared/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBarViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfsky.PhotoNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECBEDB6274BB7FE00ABF3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F09CE806B25E8FFF849443F /* Pods-PhotoNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWN3V5W8VN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoNote/Shared/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = TabBarViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfsky.PhotoNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECBED9B274BB7F400ABF3D7 /* Build configuration list for PBXProject "PhotoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECBEDB2274BB7FE00ABF3D7 /* Debug */,
+				CECBEDB3274BB7FE00ABF3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECBEDB4274BB7FE00ABF3D7 /* Build configuration list for PBXNativeTarget "PhotoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECBEDB5274BB7FE00ABF3D7 /* Debug */,
+				CECBEDB6274BB7FE00ABF3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECBED98274BB7F400ABF3D7 /* Project object */;
+}
