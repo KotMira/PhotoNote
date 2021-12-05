@@ -15,10 +15,14 @@ class SavedListCell: UICollectionViewCell {
             super.awakeFromNib()
         }
     
+    override func prepareForReuse() -> Void {
+        productImage.image = nil
+    }
+    
     func configureCell(image: UIImage) {
         contentView.backgroundColor = .yellow
         contentView.layer.cornerRadius = 10
-        productImage.backgroundColor = .brown
+        productImage.backgroundColor = .clear
         productImage.image = image
         productImage.contentMode = .scaleAspectFill
     }

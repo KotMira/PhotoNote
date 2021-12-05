@@ -23,7 +23,9 @@ class SavedListViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         collectionView.reloadData()
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
+    
 }
 
 extension SavedListViewController {

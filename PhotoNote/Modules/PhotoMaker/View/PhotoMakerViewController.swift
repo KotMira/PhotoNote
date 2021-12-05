@@ -93,45 +93,7 @@ extension PhotoMakerViewController {
         settings.previewPhotoFormat = previewFormat
         stillImageOutput?.capturePhoto(with: settings, delegate: self)
     }
-    
-//    func failed() {
-//        let ac = UIAlertController(title: "Scanner not supported", message: "Please use a device with a camera. Because this device does not support scanning a code", preferredStyle: .alert)
-//        ac.addAction(UIAlertAction(title: "OK", style: .default))
-//        present(ac, animated: true)
-//        captureSession = nil
-//    }
-    
-//    func barCode() {
-//        let metadataOutput = AVCaptureMetadataOutput()
-//        if ((self.captureSession?.canAddOutput(metadataOutput)) != nil) {
-//            self.captureSession?.addOutput(metadataOutput)
-//
-//            metadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
-//            metadataOutput.metadataObjectTypes = [.ean8, .ean13, .pdf417, .qr]
-//        } else {
-//            self.failed()
-//            return
-//        }
-//    }
 
-}
-
-extension PhotoMakerViewController : AVCaptureMetadataOutputObjectsDelegate {
-    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
-        captureSession?.stopRunning()
-        
-        if let metadataObject = metadataObjects.first {
-            guard let readableObject = metadataObject as? AVMetadataMachineReadableCodeObject else { return }
-            guard let stringValue = readableObject.stringValue else { return }
-            AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
-            found(code: stringValue)
-        }
-        dismiss(animated: true)
-    }
-    
-    func found(code: String) {
-        print(code)
-    }
 }
 
 extension PhotoMakerViewController : AVCapturePhotoCaptureDelegate {
@@ -142,16 +104,9 @@ extension PhotoMakerViewController : AVCapturePhotoCaptureDelegate {
         
         if let dataImage = photo.fileDataRepresentation() {
             print(UIImage(data: dataImage)?.size as Any)
-            
             let dataProvider = CGDataProvider(data: dataImage as CFData)
             let cgImageRef: CGImage! = CGImage(jpegDataProviderSource: dataProvider!, decode: nil, shouldInterpolate: true, intent: .defaultIntent)
             let image = UIImage(cgImage: cgImageRef, scale: 1.0, orientation: UIImage.Orientation.right)
-            
-            /**
-             save image in array / do whatever you want to do with the image here
-             */
-            //            self.images.append(image)
-            print("IT'S HERE!")
             presenter.openImageActions(image: image)
         } else {
             print("some error here")

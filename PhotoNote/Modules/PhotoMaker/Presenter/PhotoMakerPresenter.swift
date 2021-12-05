@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 protocol PhotoMakerPresenterProtocol {
 
@@ -26,5 +27,5 @@ extension PhotoMakerPresenter: PhotoMakerPresenterProtocol {
     func openImageActions(image: UIImage) {
         router.openImageView(image: image)
     }
-    
+
 }
